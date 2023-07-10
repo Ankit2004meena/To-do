@@ -31,7 +31,7 @@ p{
     background:#99F443;
     color: #00008B ;
     font-size:45px ;
-    fontWeight: bold ;
+   font-weight: bold;
 }
 @media only screen and (max-width: 300px) {
     img{        
@@ -40,7 +40,7 @@ p{
     }
     p{
         font-size:20px;
-        fontWeight: 'bold' ;
+        font-weight: bold;
     }
 }
   `;
