@@ -92,6 +92,26 @@ const Container = styled(Box)`
     position:relative;
     right:80px;
 }
+@media only screen and (max-width: 590px) {
+    &>div>input[type="text"]{
+        width:200px;
+    }
+    &>span{
+        font-size:10;
+        position:relative;
+        right:70px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    &>div>input[type="text"]{
+        width:100px;
+    }
+    &>span{
+        font-size:10;
+        position:relative;
+        right:10px;
+    }
+}
 `;
 const Errorbox = styled(Typography)`
 background:red;
