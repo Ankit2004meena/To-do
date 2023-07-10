@@ -7,8 +7,8 @@ export default function Header() {
         <>
             <Container style={{ background: '#99F443' ,position:"static",animation: "1s ease-out 0s 1 slideInLeft"}}>
                 <Toolbar>
-                    <img src={logo} alt="logo" style={{ width: 50 ,marginRight:10}} />
-                    <Typography style={{ background:'#99F443' ,color: '#00008B' ,fontSize:'30px' ,fontWeight: 'bold' }}>My_Notes</Typography>
+                    <img src={logo} alt="logo"  />
+                    <Typography >My_Notes</Typography>
                 </Toolbar>
             </Container>
         </>
@@ -22,4 +22,25 @@ const Container=styled(AppBar)`
     100% {
       transform: translateX(0);
     }
-  }`;
+  }
+  img{
+    width:50px;
+    margin-right:10px;
+}
+p{
+    background:#99F443;
+    color: #00008B ;
+    font-size:45px ;
+    fontWeight: bold ;
+}
+@media only screen and (max-width: 300px) {
+    img{
+        width:25px;
+        marginRight:10
+    }
+    p{
+        font-size:20px;
+        fontWeight: 'bold' ;
+    }
+}
+  `;
