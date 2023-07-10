@@ -34,7 +34,7 @@ p{
     fontWeight: bold ;
 }
 @media only screen and (max-width: 300px) {
-    img{
+    img{        
         width:25px;
         marginRight:10
     }
